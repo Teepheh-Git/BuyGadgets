@@ -4,11 +4,15 @@ import {StyleSheet, Text, View} from 'react-native';
 import SplashScreen from "./src/screens/splashScreen";
 import ProfileScreen from "./src/screens/profileScreen";
 import LoginScreen from "./src/screens/loginScreen";
+import FavouriteScreen from "./src/screens/favouriteScreen";
+import HistoryScreen from "./src/screens/historyScreen";
+import NotFoundScreen from "./src/screens/notFoundScreen";
+import InternetScreen from "./src/screens/internetScreen";
 
 export default function App() {
     return (
         <View style={styles.container}>
-            <LoginScreen />
+            <InternetScreen/>
             <StatusBar style="auto"/>
         </View>
     );

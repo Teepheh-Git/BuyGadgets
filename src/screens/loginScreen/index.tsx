@@ -49,7 +49,6 @@ const LoginScreen = () => {
     });
 
     return (
-
         <View style={styles.root}>
             <View style={styles.elipse0}>
                 <FontAwesome name="circle" size={125} color="#FAB8C3"/>

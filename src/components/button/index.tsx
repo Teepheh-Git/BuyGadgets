@@ -12,13 +12,13 @@ interface ButtonProps {
 const w = Dimensions.get("window").width
 const h = Dimensions.get("window").height
 
-const Button = ({text, onPress, type}: ButtonProps) => {
+const Button = ({text, onPress, type, containerStyles}: ButtonProps) => {
 
     const backGroundColor = type === 'primary' ? '#5956E9' : '#ffffff';
     const textColor = type === 'primary' ? '#FFFFFF' : '#5956E9';
     return (
         <TouchableOpacity activeOpacity={0.85} onPress={onPress}
-                          style={[styles.root, {backgroundColor: backGroundColor}]}>
+                          style={{...[styles.root, {backgroundColor: backGroundColor}], ...containerStyles}}>
             <Text style={[styles.text, {color: textColor}]}>{text}</Text>
         </TouchableOpacity>
     );
