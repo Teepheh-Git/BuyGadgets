@@ -3,11 +3,12 @@ import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 import SplashScreen from "./src/screens/splashScreen";
 import ProfileScreen from "./src/screens/profileScreen";
+import LoginScreen from "./src/screens/loginScreen";
 
 export default function App() {
     return (
         <View style={styles.container}>
-            <ProfileScreen />
+            <LoginScreen />
             <StatusBar style="auto"/>
         </View>
     );
