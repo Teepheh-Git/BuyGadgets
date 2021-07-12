@@ -11,6 +11,8 @@
     "@expo-google-fonts/raleway": "^0.2.0",
     "expo": "~42.0.1",
     "expo-status-bar": "~1.0.4",
+    "radio-buttons-react-native": "^1.0.4",
+    "radio-buttons-react-native-expo": "^1.0.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",

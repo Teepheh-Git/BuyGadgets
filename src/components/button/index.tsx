@@ -12,6 +12,7 @@ interface ButtonProps {
 const w = Dimensions.get("window").width
 const h = Dimensions.get("window").height
 
+// @ts-ignore
 const Button = ({text, onPress, type, containerStyles}: ButtonProps) => {
 
     const backGroundColor = type === 'primary' ? '#5956E9' : '#ffffff';

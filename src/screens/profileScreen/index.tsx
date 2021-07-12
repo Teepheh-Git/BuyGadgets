@@ -5,10 +5,11 @@ import {Feather} from '@expo/vector-icons';
 
 import styles from "../profileScreen/styles";
 
-let props = {
+export let props = {
     name: "Onifoleyin Atanda",
     image: 'https://i.im.ge/2021/07/05/uG4KY.jpg',
-    address: '43, Oxford Road M13 4GR Manchester, UK'
+    address: '43, Oxford Road M13 4GR Manchester, UK',
+    phone: '+234 8105950857'
 };
 
 const ProfileScreen = () => {

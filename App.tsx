@@ -8,11 +8,12 @@ import FavouriteScreen from "./src/screens/favouriteScreen";
 import HistoryScreen from "./src/screens/historyScreen";
 import NotFoundScreen from "./src/screens/notFoundScreen";
 import InternetScreen from "./src/screens/internetScreen";
+import CheckoutScreen from "./src/screens/checkoutScreen";
 
 export default function App() {
     return (
         <View style={styles.container}>
-            <InternetScreen/>
+            <CheckoutScreen/>
             <StatusBar style="auto"/>
         </View>
     );
