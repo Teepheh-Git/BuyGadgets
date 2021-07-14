@@ -19,11 +19,12 @@ import HomeScreen from "./src/screens/homescreen";
 import Router from "./src/routers";
 import BottomTabNav from "./src/routers/bottomTabNav";
 import ProductDetails from "./src/screens/productDetails";
+import BasketScreen from "./src/screens/basketScreen";
 
 export default function App() {
     return (
         <View style={styles.container}>
-            <BottomTabNav/>
+            <BasketScreen/>
             <StatusBar style="auto"/>
         </View>
     );

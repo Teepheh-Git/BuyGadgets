@@ -12,6 +12,7 @@ const HistoryScreen = () => {
             <Text style={styles.text}>No history yet</Text>
             <Text style={styles.description}>Hit the blue button down below to create an order</Text>
             <Button text={"Start ordering"} onPress={() => console.warn("order")} type={"primary"}
+                // @ts-ignore
                     containerStyles={{
                         backgroundColor: "#58C0EA", marginVertical: 10,
                         height: h * 0.08,
