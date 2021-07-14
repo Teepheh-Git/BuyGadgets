@@ -1,7 +1,7 @@
 import {Dimensions, StyleSheet} from "react-native";
 
-const w = Dimensions.get("window").width
-const h = Dimensions.get("window").height
+export const w = Dimensions.get("window").width
+export const h = Dimensions.get("window").height
 
 // the whole styling for the splashscreen
 const styles = StyleSheet.create({

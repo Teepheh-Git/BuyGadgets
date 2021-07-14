@@ -32,10 +32,10 @@ export default ProfileButton;
 // the styling
 const styles = StyleSheet.create({
     root: {
-        marginVertical: h * 0.015,
+        marginVertical: h * 0.01,
         borderRadius: 20,
-        width: w * 0.9,
-        height: h * 0.07,
+        width: w * 0.85,
+        height: h * 0.068,
         alignItems: "center",
         justifyContent: "center",
         backgroundColor: '#fff'

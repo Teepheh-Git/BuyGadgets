@@ -4,9 +4,20 @@ const w = Dimensions.get("window").width;
 const h = Dimensions.get("window").height;
 
 const styles = StyleSheet.create({
+
+
+    root: {
+        flex: 1,
+        width: w,
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginTop: h * 0.05,
+
+    },
+
     ShippingInfoCon: {
         marginVertical: 5,
-        width: w * 0.9,
+        width: w * 0.85,
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
@@ -17,11 +28,11 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
     },
     dataContainer: {
-        width: w * 0.9,
+        width: w * 0.85,
         height: h * 0.23,
         alignItems: 'center',
         backgroundColor: '#fff',
-        marginVertical: 15,
+        marginVertical: 10,
         marginHorizontal: 15,
         justifyContent: 'center',
         borderRadius: 10,
@@ -56,7 +67,7 @@ const styles = StyleSheet.create({
     },
     payMethodCon: {
         justifyContent: 'center',
-        width: w * 0.9,
+        width: w * 0.85,
         height: 20,
         marginVertical: 15,
     },
@@ -65,7 +76,7 @@ const styles = StyleSheet.create({
         fontSize: 18,
     },
     cardsContainer: {
-        width: w * 0.9,
+        width: w * 0.85,
         height: h * 0.25,
         backgroundColor: '#fff',
         justifyContent: 'center',
@@ -88,7 +99,9 @@ const styles = StyleSheet.create({
         color: '#5956E9'
     },
     buttonContainer: {
-        width: w * 0.8,
+        width: w * 0.9,
+        alignItems: 'center',
+
     }
 })
 

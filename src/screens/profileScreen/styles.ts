@@ -6,8 +6,11 @@ const h = Dimensions.get("window").height
 const styles = StyleSheet.create({
     root: {
         flex: 1,
-        justifyContent: "center",
-        alignItems: "center"
+        // justifyContent: "center",
+        alignItems: "center",
+        marginTop:15,
+        width: w ,
+        height: h * 0.98,
 
     },
     myProfileCon: {
@@ -22,7 +25,7 @@ const styles = StyleSheet.create({
         fontSize: 45,
     },
     dataContainer: {
-        width: w * 0.9,
+        width: w * 0.85,
         height: h * 0.25,
         alignItems: 'center',
         backgroundColor: '#fff',

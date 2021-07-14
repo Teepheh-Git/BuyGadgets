@@ -1,5 +1,5 @@
 import React from 'react';
-import {Dimensions, Image, StyleSheet, Text, View} from "react-native";
+import {Dimensions, Image, Text, View} from "react-native";
 import TextButton from "../../components/textButton";
 import {Feather, FontAwesome5} from '@expo/vector-icons';
 // @ts-ignore
@@ -62,7 +62,7 @@ const cards = [
 
 const CheckoutScreen = () => {
     return (
-        <>
+        <View style={styles.root}>
             {/*shipping information */}
             <View style={styles.ShippingInfoCon}>
                 <Text style={styles.ShippingInfo}>Shipping information</Text>
@@ -111,6 +111,7 @@ const CheckoutScreen = () => {
             <View style={styles.buttonContainer}>
                 <Button text={"Confirm and pay"} onPress={() => console.warn("Proceed to confirm")}
                         type={"primary"}
+                    // @ts-ignore
                         containerStyles={{
                             backgroundColor: "#5956E9", marginVertical: 10,
                             height: h * 0.08,
@@ -120,7 +121,7 @@ const CheckoutScreen = () => {
                             borderRadius: 10,
                         }}/>
             </View>
-        </>
+        </View>
     );
 };
 
