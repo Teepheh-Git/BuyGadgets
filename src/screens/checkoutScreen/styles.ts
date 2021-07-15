@@ -10,8 +10,9 @@ const styles = StyleSheet.create({
         flex: 1,
         width: w,
         alignItems: 'center',
-        justifyContent: 'center',
-        marginTop: h * 0.05,
+        justifyContent: 'flex-start',
+        // marginTop: h * 0.05,
+        backgroundColor:'#e5e5e5'
 
     },
 
@@ -84,7 +85,7 @@ const styles = StyleSheet.create({
     },
     totalContainer: {
         width: w * 0.85,
-        marginVertical: 35,
+        marginVertical: 30,
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',

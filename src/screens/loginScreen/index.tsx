@@ -49,7 +49,9 @@ const LoginScreen = () => {
     });
 
     return (
+        // the whole container
         <View style={styles.root}>
+            {/*the elipse designs*/}
             <View style={styles.elipse0}>
                 <FontAwesome name="circle" size={125} color="#FAB8C3"/>
             </View>
@@ -57,22 +59,23 @@ const LoginScreen = () => {
                 <FontAwesome name="circle-o" size={27} color="#706EFD"/>
             </View>
             <View style={styles.textContainer}>
-
                 <Text style={styles.text}>Welcome back </Text>
             </View>
             <View style={styles.elipse2}>
                 <FontAwesome name="circle-o" size={35} color="#706EFD"/>
             </View>
 
-
+            {/*the whole login container*/}
             <View style={styles.loginContainer}>
                 <Text style={styles.login}>Login</Text>
 
+                {/*email container with icon*/}
                 <View style={styles.emailContainer}>
-
                     <Ionicons name="mail-outline" size={15} color="#868686"/>
                     <Text style={styles.email}>Email</Text>
                 </View>
+
+                {/*email placeholder*/}
                 <TextInput placeholder={"E-mail"}
                            style={styles.textInput1}
                            maxLength={50}
@@ -80,13 +83,13 @@ const LoginScreen = () => {
                            autoFocus={true}>
                 </TextInput>
 
+                {/*password container with icon*/}
                 <View style={styles.passwordContainer}>
-
                     <EvilIcons name="lock" size={23} color="#868686"/>
                     <Text style={styles.password}>Password</Text>
                 </View>
 
-
+                {/*password placeholder*/}
                 <View style={styles.showPassContainer}>
                     <TextInput placeholder={"Password"}
                                style={styles.textInput2}
@@ -94,21 +97,23 @@ const LoginScreen = () => {
                                numberOfLines={1}
                                secureTextEntry={true}>
                     </TextInput>
-
-                    <TextButton text={"Show"}
-                                onPress={() => console.warn("Show was pressed")}/>
+                    {/*show password*/}
+                    <TextButton text={"Show"} onPress={() => console.warn("Show was pressed")}/>
                 </View>
 
+                {/*forgot password container*/}
                 <View style={styles.textButton}>
                     <TextButton text={"Forgot passcode?"}
                                 onPress={() => console.warn("Forgot passcode? was pressed")}/>
                 </View>
 
+
+                {/*button container*/}
                 <View style={styles.buttonContainer}>
                     <Button type={"primary"} text={"Login"} onPress={() => console.warn("Login was pressed")}/>
-
                 </View>
 
+                {/*create acct container*/}
                 <View style={styles.createAccContainer}>
                     <TextButton text={"Create account"}
                                 onPress={() => console.warn("Create account was pressed")}/>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {Dimensions, Text, View, TextInput} from "react-native";
 import TopBarNav from "../../routers/topBarNav";
 import TextButton from "../../components/textButton";
@@ -31,6 +31,7 @@ const HomeScreen = () => {
                     flexDirection: 'row',
                     alignItems: 'center',
                 }}>
+
 
                 <Feather style={{margin: 5}} name={'search'} size={20}/>
 

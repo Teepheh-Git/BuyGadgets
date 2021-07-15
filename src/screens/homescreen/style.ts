@@ -7,9 +7,8 @@ const styles = StyleSheet.create({
     root: {
         flex: 1,
         width: w,
-        height: h,
         alignItems: 'center',
-        justifyContent: 'center',
+        justifyContent: 'flex-start',
         backgroundColor: '#e5e5e5'
     },
     text: {

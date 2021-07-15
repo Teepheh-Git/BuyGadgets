@@ -1,6 +1,6 @@
 import React from 'react';
 import ProfileButton from "../../components/profileButton";
-import {Dimensions, Image, StyleSheet, Text, View} from "react-native";
+import {Image, Text, View} from "react-native";
 import {Feather} from '@expo/vector-icons';
 
 import styles from "../profileScreen/styles";

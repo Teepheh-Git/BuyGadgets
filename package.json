@@ -11,6 +11,7 @@
     "@expo-google-fonts/raleway": "^0.2.0",
     "@react-native-community/masked-view": "0.1.10",
     "@react-navigation/bottom-tabs": "^5.11.11",
+    "@react-navigation/drawer": "^5.12.5",
     "@react-navigation/material-top-tabs": "^5.3.15",
     "@react-navigation/native": "^5.9.4",
     "expo": "~42.0.1",

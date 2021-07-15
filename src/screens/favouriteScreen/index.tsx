@@ -12,6 +12,7 @@ const FavouriteScreen = () => {
             <Text style={styles.text}>No favourites yet</Text>
             <Text style={styles.description}>Hit the blue button down below to create an order</Text>
             <Button text={"Start ordering"} onPress={() => console.warn("order")} type={"primary"}
+                // @ts-ignore
                     containerStyles={{
                         backgroundColor: "#58C0EA", marginVertical: 10,
                         height: h * 0.08,
@@ -32,7 +33,7 @@ const styles = StyleSheet.create({
         flex: 1,
         width: w,
         height: h,
-        justifyContent: 'center',
+        justifyContent: 'flex-start',
         alignItems: 'center',
         backgroundColor: '#E5E5E5'
     },

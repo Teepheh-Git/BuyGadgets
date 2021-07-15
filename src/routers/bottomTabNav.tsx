@@ -15,15 +15,24 @@ const h = Dimensions.get("window").height
 
 const BottomTabNav = () => {
     return (
+
         <View style={{
             // flex:1,
             width: w,
-            height: h ,
+            height: h*0.88,
         }}>
 
             <NavigationContainer>
+
                 <Tab.Navigator backBehavior={"history"}
-                    tabBarOptions={{showLabel: false, inactiveTintColor: '#9A9A9D', activeTintColor: '#5956E9'}}>
+                               tabBarOptions={{
+                                   showLabel: false,
+                                   activeBackgroundColor:'#e5e5e5',
+                                   inactiveBackgroundColor:'#e5e5e5',
+                                   inactiveTintColor: '#9A9A9D',
+                                   activeTintColor: '#5956E9',
+
+                               }}>
                     <Tab.Screen name={'HomeScreen'} component={HomeScreen}
                                 options={{
                                     tabBarIcon: ({color}) =>
@@ -46,7 +55,9 @@ const BottomTabNav = () => {
                     }}/>
                 </Tab.Navigator>
             </NavigationContainer>
+
         </View>
+
 
     );
 };
