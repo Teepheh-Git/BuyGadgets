@@ -1,8 +1,8 @@
 # BuyGadgets
 **Design To Code** 🚀🚀🚀🚀🚀🚀🚀
 
-Front-End
-Online Platform for Trading Gadgets
+**Front-End**
+ : Online Platform for Trading Gadgets
 
 
 **SCREENS**
