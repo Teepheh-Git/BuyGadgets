@@ -1,3 +1,3 @@
 # BuyGadgets
-An Ecommerce App(the first one) 
+A Ecommerce App(the first one) 
 more info comimg...
